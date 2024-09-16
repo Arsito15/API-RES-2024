@@ -1,22 +1,22 @@
 module.exports = (sequelize, Sequelize) => {
-    const Product = sequelize.define('product', {
-        id: {
+    const Servicio = sequelize.define('servicio', {
+        Servicio_ID: {
             type: Sequelize.INTEGER,
             autoIncrement: true,
             primaryKey: true
         },
-        name: {
+        Nombre_Servicio: {
             type: Sequelize.STRING
         },
-        description: {
-            type: Sequelize.STRING
+        Descripcion: {
+            type: Sequelize.TEXT
         },
-        price: {
-            type: Sequelize.FLOAT
+        Precio: {
+            type: Sequelize.DECIMAL(10, 2)
         },
-        stock: {
+        Duracion: {
             type: Sequelize.INTEGER
         }
     });
-    return Product;
-}
+    return Servicio;
+};

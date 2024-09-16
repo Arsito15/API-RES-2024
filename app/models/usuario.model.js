@@ -1,31 +1,28 @@
 module.exports = (sequelize, Sequelize) => {
-    const Song = sequelize.define('song', {
-        id: {
+    const Usuario = sequelize.define('usuario', {
+        Usuario_ID: {
             type: Sequelize.INTEGER,
             autoIncrement: true,
             primaryKey: true
         },
-        name: {
+        Nombre_Usuario: {
             type: Sequelize.STRING
         },
-        description: {
+        Correo: {
             type: Sequelize.STRING
         },
-        artist: {
+        Contraseña: {
             type: Sequelize.STRING
         },
-        duration: {
-            type: Sequelize.INTEGER
-        },
-        extension: {
+        Rol: {
             type: Sequelize.STRING
         },
-        album: {
+        Telefono: {
             type: Sequelize.STRING
         },
-        year: {
-            type: Sequelize.INTEGER
+        Fecha_Creacion: {
+            type: Sequelize.DATE
         }
     });
-    return Song;
-}
+    return Usuario;
+};

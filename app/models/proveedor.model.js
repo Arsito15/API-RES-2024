@@ -1,19 +1,19 @@
 module.exports = (sequelize, Sequelize) => {
-    const Supplier = sequelize.define('supplier', {	
-        id: {
+    const Proveedor = sequelize.define('proveedor', {
+        Proveedor_ID: {
             type: Sequelize.INTEGER,
             autoIncrement: true,
             primaryKey: true
         },
-        name: {
+        Nombre: {
             type: Sequelize.STRING
         },
-        contact: {
+        Contacto: {
             type: Sequelize.STRING
         },
-        address: {
-            type: Sequelize.STRING
+        Direccion: {
+            type: Sequelize.TEXT
         }
     });
-    return Supplier;
-}
+    return Proveedor;
+};
