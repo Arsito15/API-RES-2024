@@ -6,14 +6,14 @@ const usuarios = require('../controllers/usuario.controler.js');
 const mascotas = require('../controllers/mascota.controler.js');
 const habitaciones = require('../controllers/habitacion.controler.js');
 const servicios = require('../controllers/servicio.controler.js');
-const reservaciones = require('../controllers/reservacion.controller.js');
-const serviciosReservacion = require('../controllers/servicio_reservacion.controller.js');
-const pagos = require('../controllers/pago.controller.js');
-const promociones = require('../controllers/promocion.controller.js');
-const logsDisponibilidad = require('../controllers/log_disponibilidad.controller.js');
-const inventario = require('../controllers/inventario.controller.js');
-const proveedores = require('../controllers/proveedor.controller.js');
-const precios = require('../controllers/precio.controller.js');
+const reservaciones = require('../controllers/reservacion.controler.js');
+const serviciosReservacion = require('../controllers/servicio_reservacion.controler.js');
+const pagos = require('../controllers/pago.controler.js');
+const promociones = require('../controllers/promocion.controler.js');
+const logsDisponibilidad = require('../controllers/log_disponibilidad.controler.js');
+const inventario = require('../controllers/inventario.controler.js');
+const proveedores = require('../controllers/proveedor.controler.js');
+const precios = require('../controllers/precio.controler.js');
 
 
 // Rutas para usuarios
