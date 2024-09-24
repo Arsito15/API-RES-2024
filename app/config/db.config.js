@@ -24,18 +24,10 @@ const db = {};
 
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
- 
-db.Usuario = require('../models/usuario.model.js')(sequelize, Sequelize);
-db.Mascota = require('../models/mascota.model.js')(sequelize, Sequelize);
-db.Habitacion = require('../models/habitacion.model.js')(sequelize, Sequelize);
-db.Servicio = require('../models/servicio.model.js')(sequelize, Sequelize);
-db.Reservacion = require('../models/reservacion.model.js')(sequelize, Sequelize);
-db.Servicio_reservacion = require('../models/servicio_reservacion.model.js')(sequelize, Sequelize);
-db.Pago = require('../models/pago.model.js')(sequelize, Sequelize);
-db.Promocion = require('../models/promocion.model.js')(sequelize, Sequelize);
-db.Log_disponibilidad = require('../models/log_disponibilidad.model.js')(sequelize, Sequelize);
-db.Inventario = require('../models/inventario.model.js')(sequelize, Sequelize);
-db.Proveedor = require('../models/proveedor.model.js')(sequelize, Sequelize);
-db.Precio = require('../models/precio.model.js')(sequelize, Sequelize);
+
+db.Cuenta = require('../models/cuenta.model.js')(sequelize, Sequelize);
+db.TipoTransaccion = require('../models/tipotransaccion.model.js')(sequelize, Sequelize);
+db.ControlTransacciones = require('../models/controltransacciones.model.js')(sequelize, Sequelize);
+
 
 module.exports = db;

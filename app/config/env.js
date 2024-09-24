@@ -1,10 +1,10 @@
 
 
 const env = {
-  database: 'petheaven',
-  username: 'petheaven_user',
-  password: 'T6TPyvmyMVf1VttVn0gqAT1X1bNn5gYC',
-  host: 'dpg-croq5q5umphs739btdtg-a',
+  database: 'controlpagos',
+  username: 'controlpagos_user',
+  password: 'FGAbpjHxUYgzDCfYPmfIWUWlCimNW4Sp',
+  host: 'dpg-crp0g9o8fa8c73dqg0r0-a',
   dialect: 'postgres',
   pool: {
     max: 5,
